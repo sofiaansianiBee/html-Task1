@@ -1,0 +1,311 @@
+div{    /* border: 1px solid #8c8c8c */   }
+
+body{
+ 
+display: flex;  
+flex-direction: column;
+justify-content: space-between;
+
+
+height: 100%;  
+width: 100%;
+align-items: center;
+
+margin: 0;
+padding: 0;
+background-color: #FAFAFA;
+font-family:Arial, Helvetica, sans-serif;
+ 
+}
+
+    .container_row{
+    
+    display: flex;
+    flex-direction: row;
+    max-width: 875px;
+    height: 660px;
+    padding: 110px 0px 60px;
+    
+
+    }
+        .container1{
+
+          position: relative;
+            width: 380px;
+            height: 600px;
+            margin: 0px 20px;
+        }
+            .mobs{
+                
+                width: 380px;
+            }
+
+
+            .animation{
+              position: absolute;
+              background: none;
+              width: 249px;
+              height: 540px;
+               
+              left: 113px;
+              top: 26px;
+              background-image: url(../img/screenshot1.png);
+              border-radius: 0%;
+                
+              animation: animation 20s infinite;
+              background-size: contain;           
+                
+            }
+
+            
+
+            @keyframes animation {
+              0% {background-image: url(../img/screenshot1.png);}
+              15% {background-image: url(../img/screenshot1.png);}
+              25% {background-image: url(../img/screenshot2.png);}
+              40% {background-image: url(../img/screenshot2.png);}
+              50% {background-image: url(../img/screenshot3.png);}
+              65% {background-image: url(../img/screenshot3.png);}
+              75% {background-image: url(../img/screenshot4.png);}
+              90% {background-image: url(../img/screenshot4.png);}
+
+            }
+
+            /* https://www.youtube.com/watch?v=fw3fOHnzCjI */
+
+              @media only screen and ( max-width: 875px) {
+                    .container1{
+                        display: none;
+                    }
+                }
+                
+        .container2{
+            width: 350px;
+            height: 600px;
+            margin: 0px 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+              .white_box{
+                
+                width: 350px;
+                height: 400px;
+                background-color: white;
+                border: 1px solid #CFD1D5;;
+                
+                display: flex;
+                flex-direction: column;
+                align-items: center;    
+
+                margin-bottom: 10px;
+                    }
+
+                    .instagram{
+                        height: 50px;
+                        margin: 44px;
+                    }
+                    
+                    .user{
+                        width: 270px;
+                        height: 38px;
+                        padding: 15px 10px 10px 10px;
+                        margin-bottom: 6px;
+
+                        border: 1px solid #CFD1D5;;
+                        border-radius: 3px;
+
+                        font-size: 12px;
+                        
+                        }
+                    .pass{
+                        width: 270px;
+                        height: 38px;
+                        padding: 15px 10px 10px 10px;
+                        margin-bottom: 12px;
+
+                        border: 1px solid #CFD1D5;;
+                        border-radius: 3px;
+
+                        font-size: 12px;
+                        
+                        }
+                    .Log-in{
+                        width: 270px;
+                        
+                        margin-bottom: 8px;
+
+                        border: 1px solid  white;
+                        border-radius: 8px;
+
+                        padding: 8px 0px;
+
+                        background-color: #4db5f8;
+
+
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: white;
+                                    
+                    }
+                    .oror{
+                        
+                        display: flex;
+                        flex-direction: row;
+                        width: 270px;
+                        align-items: center;
+
+                        margin-bottom: 5px;
+
+
+
+
+
+                    }
+                        .Line_left{
+                            margin: 15px 0px;
+                            border: 1px solid white;
+                            border-top: 1px solid #CFD1D5;;
+                            height: 1px;
+                            width: 105px;
+
+
+                        }
+                        .OR{
+                            margin: 5px 15px;
+                            color: #878787;
+                            font-family:Arial, Helvetica, sans-serif;
+                            font-size: 13px;
+                            font-weight: 600;
+
+                        }
+                        .line_right{
+                            margin: 15px 0px;
+                            border-top: 1px solid #CFD1D5;;
+                            height: 1px;
+                            width: 105px;
+
+                    }
+                    .log_in_fb{
+                      
+
+                        color: #2b447a;
+                        font-size: 13px;
+                        font-weight: bold;
+
+                        margin-bottom: 3px;
+
+
+                    }
+                    .f_Pass{
+                        
+                        font-size: 12px;
+                        font-weight: 300;
+
+                        margin-bottom: 15px;
+
+                        }
+                    
+            .Dont_have{
+
+                width: 350px;
+                height: 20px;
+                background-color: white;
+                border: 1px solid #CFD1D5;;
+
+                font-size: 13px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+
+                /* margin: 0 0px auto; */
+                
+                text-align: center;
+
+                margin-bottom: 20px;
+            }
+            
+            .Sign_Up{
+
+              color:  #1da2fa;
+              font-weight: 700;
+
+            }
+            
+            .G_app{
+                font-size: 14px;
+
+                margin-bottom: 20px;
+
+
+            }
+            .store{
+
+                display: flex;
+                flex-direction: row;
+            
+            }
+
+        .GP{
+            height: 40px;
+            
+
+        }
+        .GM{
+            height: 40px;
+            margin-left: 10px;
+        }
+
+    .footer{
+        margin: auto;
+        flex-direction: column;
+        max-width: 1075px;
+        height: 135px;
+
+        word-spacing: 5px;
+
+        font-size: 10px;
+
+        text-align: justify;
+
+        
+
+
+
+
+
+        
+
+        /* justify-content: first-baseline; */
+
+       
+        /* text-align: center;
+        align-items: center;
+        justify-content: flex-end; */
+        
+    }
+        a {
+          color: #878787;
+
+        }    
+        a:visited{
+          color: #878787;  
+          
+        }
+                
+        .footer1{
+          
+          text-align: justify;
+          
+
+        }
+                .about{
+
+            }
+        .footer2{
+
+            }    
+            .about{
+
+            }
